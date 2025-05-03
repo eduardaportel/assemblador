@@ -1,0 +1,46 @@
+LDI 01     ; Carrega o número 1 (primeiro ímpar)
+STO 00     ; Armazena 1 no endereço 0x00 (primeiro endereço par)
+
+LDI 03     ; Carrega o número 3 (próximo ímpar)
+STO 02     ; Armazena 3 no endereço 0x02 (próximo endereço par)
+
+LDI 05     ; Carrega o número 5
+STO 04     ; Armazena 5 no endereço 0x04
+
+LDI 07     ; Carrega o número 7
+STO 06     ; Armazena 7 no endereço 0x06
+
+LDI 09     ; Carrega o número 9
+STO 08     ; Armazena 9 no endereço 0x08
+
+LDI 11     ; Carrega o número 11
+STO 0A     ; Armazena 11 no endereço 0x0A
+
+LDI 13     ; Carrega o número 13
+STO 0C     ; Armazena 13 no endereço 0x0C
+
+LDI 15     ; Carrega o número 15
+STO 0E     ; Armazena 15 no endereço 0x0E
+
+LDI 17     ; Carrega o número 17
+STO 10     ; Armazena 17 no endereço 0x10
+
+LDI 19     ; Carrega o número 19
+STO 12     ; Armazena 19 no endereço 0x12
+
+LDI 21     ; Carrega o número 21
+STO 14     ; Armazena 21 no endereço 0x14
+
+LDI 23     ; Carrega o número 23
+STO 16     ; Armazena 23 no endereço 0x16
+
+LDI 25     ; Carrega o número 25
+STO 18     ; Armazena 25 no endereço 0x18
+
+LDI 27     ; Carrega o número 27
+STO 1A     ; Armazena 27 no endereço 0x1A
+
+LDI 29     ; Carrega o número 29
+STO 1C     ; Armazena 29 no endereço 0x1C
+
+HLT 00     ; Finaliza o programa

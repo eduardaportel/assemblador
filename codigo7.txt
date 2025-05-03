@@ -1,0 +1,39 @@
+LDI 05     
+STO 01     
+
+LDI 01    
+STO 02     
+
+LOOP:  
+LD 01     
+SUBI 01    
+JUMPZ FIM  
+STO 01     
+
+LD 01      
+STO 03     
+
+LDI 00     
+STO 04    
+
+MULT:
+LD 02     
+ADD 04     
+STO 04     
+
+LD 03      
+SUBI 01
+STO 03
+JUMPZ FIMMULT
+JUMP MULT
+
+FIMMULT:
+LD 04     
+STO 02    
+
+JUMP LOOP
+
+FIM:
+LD 02      
+STO 00     
+HLT 00

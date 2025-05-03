@@ -1,0 +1,12 @@
+LD 00       
+ADD 00     
+ADD 00      
+ADD 00      
+ADD 00    
+ADD 00      
+ADD 00      
+ADD 00     
+ADD 00     
+SUBI 02     
+STO 01      
+HLT 00      

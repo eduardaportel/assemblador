@@ -1,0 +1,10 @@
+LDI 05
+STO 00
+LDI 10
+STO 01
+ADD 00
+STO 02
+HLT 00
+
+   
+
